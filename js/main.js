@@ -28,10 +28,10 @@ $('#frmae_slider').owlCarousel({
         0:{
             items:1
         },
-        300:{
+        600:{
             items:1
         },
-        600:{
+        1000:{
             items:1
         }
     }
@@ -48,10 +48,10 @@ $('#company_slider').owlCarousel({
         0:{
             items:2
         },
-        300:{
+        600:{
             items:3
         },
-        600:{
+        1000:{
             items:5
         }
     }
@@ -69,10 +69,10 @@ $('#testimonial_slider').owlCarousel({
         0:{
             items:1
         },
-        300:{
+        600:{
             items:1
         },
-        600:{
+        1000:{
             items:1
         }
     }
@@ -91,10 +91,10 @@ $('#screen_slider').owlCarousel({
         0:{
             items:1
         },
-        300:{
+        600:{
             items:3
         },
-        600:{
+        1000:{
             items:5
         }
     }
