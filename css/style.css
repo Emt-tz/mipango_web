@@ -715,6 +715,7 @@ header.fixed .navbar {
 
 .banner_section .app_btn li a img {
     transition: .4s all;
+    max-width: 150px;
 }
 
 .banner_section .app_btn li a .white_img {
@@ -869,13 +870,13 @@ header.fixed .navbar {
 /* features section image */
 .features_section .feature_detail .feature_img {
     position: absolute;
-    left: 50%;
+    left: 60%;
     transform: translateX(-50%);
-    top: -75px;
+    top: 65px;
 }
 
 .features_section .feature_detail .feature_img img {
-    max-width: 100%;
+    max-width: 50%;
 }
 
 /* features section box */
@@ -928,7 +929,7 @@ header.fixed .navbar {
 
 /* about us section images*/
 .about_app_section .about_img img {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .about_app_section .about_img::before {
@@ -1658,14 +1659,14 @@ iframe#youtubevideo {
 /* interface wraper */
 .interface_section .screen_slider {
     margin-top: 35px;
-    min-height: 720px;
+    min-height: 320px;
 }
 
 /* interface images */
 .interface_section .owl-item .screen_frame_img img {
     transform: scale(.9);
     border: 2px solid #000;
-    border-radius: 20px;
+    border-radius: 40px;
     transition: 1s all;
     margin: 0 auto;
 }
@@ -1730,6 +1731,10 @@ iframe#youtubevideo {
     align-items: center;
 }
 
+.app_btn li img{
+    max-width: 120px;
+}
+
 .free_app_section .container .free_app_inner .free_text .app_btn li a {
     display: block;
     padding: 12px 30px;
@@ -1754,6 +1759,14 @@ box-shadow: 1px 4px 8px -2px rgba(0,0,0,0.5);
     display: flex;
     align-items: center;
     margin-top: -120px;
+}
+
+.free_app_section .container .free_app_inner .free_img .mobile_mockup1{
+    max-width: 60%;
+}
+
+.free_app_section .container .free_app_inner .free_img .mobile_mockup{
+    max-width: 80%;
 }
 
 .free_app_section .container .free_app_inner .free_img img:last-child {
