@@ -1762,16 +1762,22 @@ box-shadow: 1px 4px 8px -2px rgba(0,0,0,0.5);
 }
 
 .free_app_section .container .free_app_inner .free_img .mobile_mockup1{
-    max-width: 60%;
+    max-width: 50%;
 }
 
 .free_app_section .container .free_app_inner .free_img .mobile_mockup{
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .free_app_section .container .free_app_inner .free_img img:last-child {
-    margin-left: -65px;
+    margin-left: -45px;
 }
+
+@media screen and (max-width: 1024px) {
+    .free_app_section .container .free_app_inner .free_img img:last-child {
+        margin-left: -25px;
+    }
+  }
 
 .purple_backdrop {
     content: "";
